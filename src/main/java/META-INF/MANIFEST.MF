@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: crawler.HTTPUnitDriver
+Class-Path: jsoup-1.13.1.jar
+
