@@ -135,10 +135,10 @@ public class HTTPUnitDriver {
             }
             if (people.get(x).longValue() != listNews.get(x).longValue()) {
                 String text =  (people.get(x).longValue() > listNews.get(x).longValue()) ? " down" : " up";
-                if (x.equals("HB_V1")) System.out.print(ANSI_RED + "+ + + + +" + ANSI_RESET);
+                if (x.equals("LaiLotHang")) System.out.print(ANSI_RED + "+ + + + +" + ANSI_RESET);
                 System.out.println(" ---> " + x + text + " point time: " +LocalDateTime.now().getHour() + ":" + LocalDateTime.now().getMinute());
                 try {
-                    if (x.equals("HB_V1")) {
+                    if (x.equals("LaiLotHang")) {
                         sos = true;
                     }
                     if (sos) {
