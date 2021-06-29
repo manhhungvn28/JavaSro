@@ -40,6 +40,7 @@ public class HTTPUnitDriver {
     private static File fileSOS = new File("E:\\baochaychuan.mp3");
     public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_RESET = "\u001B[0m";
+    public static final String sosName = "LaiLotHang";
 
     HTTPUnitDriver () throws Exception {
         System.out.println("-------------- Hello Hung Ba Thien Ha -----------");
@@ -76,11 +77,7 @@ public class HTTPUnitDriver {
         Document page = Jsoup.parse(s);
         Elements elements = page.getElementsByClass("title_bot_bg");
         String[] sarray = elements.toString().split("/tr");
-        if (t == 0) {
-            scanAll(sarray, t);
-        } else {
-            scanAll(sarray, t);
-        }
+        scanAll(sarray, t);
     }
 
     private void scanAll(String[] sarray, int t) {
@@ -134,11 +131,11 @@ public class HTTPUnitDriver {
                 System.out.println(" - " + x + " + "+people.get(x).longValue());
             }
             if (people.get(x).longValue() != listNews.get(x).longValue()) {
-                String text =  (people.get(x).longValue() > listNews.get(x).longValue()) ? " down" : " up";
-                if (x.equals("LaiLotHang")) System.out.print(ANSI_RED + "+ + + + +" + ANSI_RESET);
-                System.out.println(" ---> " + x + text + " point time: " +LocalDateTime.now().getHour() + ":" + LocalDateTime.now().getMinute());
+                String text =  (people.get(x).longValue() > listNews.get(x).longValue()) ? " giảm" : " tăng ";
+                if (x.equals(sosName)) System.out.print(ANSI_RED + "+ + +" + ANSI_RESET);
+                System.out.println(" -> " + x + text + " điểm lúc: " +LocalDateTime.now().getHour() + ":" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
                 try {
-                    if (x.equals("LaiLotHang")) {
+                    if (x.equals(sosName)) {
                         sos = true;
                     }
                     if (sos) {
@@ -184,6 +181,4 @@ public class HTTPUnitDriver {
     public static void main(String[] args) throws Exception {
         new HTTPUnitDriver();
     }
-
-
 }

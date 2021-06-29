@@ -1,0 +1,14 @@
+logs/
+log
+*.iml
+.idea
+JetBrains*
+target
+.DS_Store
+.settings
+.project
+.classpath
+.metadata
+hs_err*.log
+*dist/
+.gitlab-ci.yml
