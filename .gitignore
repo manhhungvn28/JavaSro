@@ -3,7 +3,6 @@ log
 *.iml
 .idea
 JetBrains*
-target
 .DS_Store
 .settings
 .project
@@ -12,3 +11,4 @@ target
 hs_err*.log
 *dist/
 .gitlab-ci.yml
+target/
