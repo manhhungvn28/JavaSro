@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact build-on-make="true" name="JavaAdvance:jar">
+  <artifact name="JavaAdvance:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/JavaAdvance_jar</output-path>
     <root id="root">
       <element id="archive" name="JavaAdvance.jar">
