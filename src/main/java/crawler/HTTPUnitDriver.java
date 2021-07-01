@@ -33,7 +33,7 @@ public class HTTPUnitDriver {
     private String hunter = "";
     private String thief = "";
     private long timeSleep = 0;
-    private int distancePerRequest = 10000;
+    private int distancePerRequest = 0;
     private static File normalSound = null;
     private static File sosSound = null;
     public static final String ANSI_RED = "\u001B[31m";
@@ -55,15 +55,15 @@ public class HTTPUnitDriver {
 
         }
         myReader.close();
-        hunter = strings[0];
-        thief = strings[1];
-        trader = strings[2];
         normalSound = new File(strings[5] + strings[3]);
         sosSound = new File(strings[5] + strings[4]);
         sosName = strings[6];
         timeSleep = Long.valueOf(strings[7]).longValue();
         distancePerRequest = Long.valueOf(strings[8]).intValue();
         while (local.compareTo(dateTime.now().plusDays(30)) < 0) {
+            hunter = resultConnect(strings[0]);
+            thief = resultConnect(strings[1]);
+            trader = resultConnect(strings[2]);
             ttime = ttime + 1;
             System.out.println("-> Times: "+ ttime);
             getNewest(trader, 0);
@@ -148,9 +148,6 @@ public class HTTPUnitDriver {
         Map<String, Long> listNews = listPersonRealTime(sarray);
         Collection<String> a = listNews.keySet();
         a.stream().forEach(x -> {
-            if (ttime == 0) {
-                System.out.println(" - " + x + " + "+people.get(x).longValue());
-            }
             if (people.get(x).longValue() != listNews.get(x).longValue()) {
                 String text =  (people.get(x).longValue() > listNews.get(x).longValue()) ? " down" : " up";
                 if (x.equals(sosName)) System.out.print(ANSI_RED + "+ + +" + ANSI_RESET);
