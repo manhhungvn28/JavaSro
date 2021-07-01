@@ -47,23 +47,23 @@ public class HTTPUnitDriver {
         String str = "2021-06-24 00:00:00";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         LocalDateTime dateTime = LocalDateTime.parse(str, formatter);
-        while (local.compareTo(dateTime.now().plusDays(30)) < 0) {
-            File myObj = new File("E:\\toolsro\\config.txt");
-            Scanner myReader = new Scanner(myObj);
-            String[] strings = null;
-            while (myReader.hasNextLine()) {
-                strings = myReader.nextLine().split(",");
+        File myObj = new File("E:\\toolsro\\config.txt");
+        Scanner myReader = new Scanner(myObj);
+        String[] strings = null;
+        while (myReader.hasNextLine()) {
+            strings = myReader.nextLine().split(",");
 
-            }
-            myReader.close();
-            hunter = strings[0];
-            thief = strings[1];
-            trader = strings[2];
-            normalSound = new File(strings[5] + strings[3]);
-            sosSound = new File(strings[5] + strings[4]);
-            sosName = strings[6];
-            timeSleep = Long.valueOf(strings[7]).longValue();
-            distancePerRequest = Long.valueOf(strings[8]).intValue();
+        }
+        myReader.close();
+        hunter = strings[0];
+        thief = strings[1];
+        trader = strings[2];
+        normalSound = new File(strings[5] + strings[3]);
+        sosSound = new File(strings[5] + strings[4]);
+        sosName = strings[6];
+        timeSleep = Long.valueOf(strings[7]).longValue();
+        distancePerRequest = Long.valueOf(strings[8]).intValue();
+        while (local.compareTo(dateTime.now().plusDays(30)) < 0) {
             ttime = ttime + 1;
             System.out.println("-> Times: "+ ttime);
             getNewest(trader, 0);
@@ -193,90 +193,4 @@ public class HTTPUnitDriver {
     public static void main(String[] args) throws Exception {
         new HTTPUnitDriver();
     }
-//    class CSV {
-//        private String urlHunter;
-//        private String urlThief;
-//        private String urlTrader;
-//        private String normalSound;
-//        private String sosSound;
-//        private String pathSound;
-//        private String nameSos;
-//        private long timeSleep;
-//        private int distancePerRequest;
-//        CSV() {
-//
-//        }
-//
-//        public String getUrlHunter() {
-//            return urlHunter;
-//        }
-//
-//        public void setUrlHunter(String urlHunter) {
-//            this.urlHunter = urlHunter;
-//        }
-//
-//        public String getUrlThief() {
-//            return urlThief;
-//        }
-//
-//        public void setUrlThief(String urlThief) {
-//            this.urlThief = urlThief;
-//        }
-//
-//        public String getUrlTrader() {
-//            return urlTrader;
-//        }
-//
-//        public void setUrlTrader(String urlTrader) {
-//            this.urlTrader = urlTrader;
-//        }
-//
-//        public String getNormalSound() {
-//            return normalSound;
-//        }
-//
-//        public void setNormalSound(String normalSound) {
-//            this.normalSound = normalSound;
-//        }
-//
-//        public String getSosSound() {
-//            return sosSound;
-//        }
-//
-//        public void setSosSound(String sosSound) {
-//            this.sosSound = sosSound;
-//        }
-//
-//        public String getPathSound() {
-//            return pathSound;
-//        }
-//
-//        public void setPathSound(String pathSound) {
-//            this.pathSound = pathSound;
-//        }
-//
-//        public String getNameSos() {
-//            return nameSos;
-//        }
-//
-//        public void setNameSos(String nameSos) {
-//            this.nameSos = nameSos;
-//        }
-//
-//        public long getTimeSleep() {
-//            return timeSleep;
-//        }
-//
-//        public void setTimeSleep(long timeSleep) {
-//            this.timeSleep = timeSleep;
-//        }
-//
-//        public int getDistancePerRequest() {
-//            return distancePerRequest;
-//        }
-//
-//        public void setDistancePerRequest(int distancePerRequest) {
-//            this.distancePerRequest = distancePerRequest;
-//        }
-//    }
 }
