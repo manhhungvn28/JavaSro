@@ -17,21 +17,15 @@ import java.util.*;
  */
 
 public class HTTPUnitDriver {
-    public Map<Long, Map<String, Long>> mapTrader =  new HashMap<>();
-    public Map<Long, Map<String, Long>> mapHunter =  new HashMap<>();
-    public Map<Long, Map<String, Long>> mapThief =  new HashMap<>();
+    public Map<Long, Map<String, Long>> mapAll =  new HashMap<>();
+    public Map<Long, Map<String, Long>> mapTemp =  new HashMap<>();
 
     private static LocalDateTime local = LocalDateTime.now();
-    private static long timeTrader =  local.getNano();
-    private static long timeHunter =  local.getNano();
-    private static long timeThief =  local.getNano();
-    private static long timeNews =  timeTrader;
+    private static long timeReset =  local.getNano();
+    private static long timeNews = timeReset;
     private int ttime = 0;
     private boolean sos = false;
     private boolean bel = false;
-    private String trader = "";
-    private String hunter = "";
-    private String thief = "";
     private long timeSleep = 0;
     private int distancePerRequest = 0;
     private static File normalSound = null;
@@ -58,17 +52,12 @@ public class HTTPUnitDriver {
         normalSound = new File(strings[5] + strings[3]);
         sosSound = new File(strings[5] + strings[4]);
         sosName = strings[6];
-        timeSleep = Long.valueOf(strings[7]).longValue();
+        timeSleep = Long.valueOf(strings[7]);
         distancePerRequest = Long.valueOf(strings[8]).intValue();
         while (local.compareTo(dateTime.now().plusDays(30)) < 0) {
-            hunter = resultConnect(strings[0]);
-            thief = resultConnect(strings[1]);
-            trader = resultConnect(strings[2]);
             ttime = ttime + 1;
             System.out.println("-> Times: "+ ttime);
-            getNewest(trader, 0);
-            getNewest(hunter, 1);
-            getNewest(thief, 2);
+            getNewest(strings);
             try {
                 if (sos && bel) {
                     Desktop.getDesktop().open(sosSound);
@@ -78,84 +67,59 @@ public class HTTPUnitDriver {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
             if (LocalDateTime.now().compareTo(local.plusMinutes(distancePerRequest)) > 0) {
                 local =  local.plusMinutes(distancePerRequest);
                 System.out.println("-> Reset: " + ((local.getHour() < 10) ? "0"+local.getHour() : local.getHour()) + "h" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
                 sos = false;
                 bel = false;
+                mapAll.remove(timeNews);
+                mapTemp.remove(timeNews);
                 timeNews = timeNews + local.getNano();
-                getNewest(trader, 0);
-                getNewest(hunter, 1);
-                getNewest(thief, 2);
+                getNewest(strings);
             }
-
             Thread.sleep(timeSleep);
         }
     }
 
-    private void getNewest(String s, int t) {
-        Document page = Jsoup.parse(s);
-        Elements elements = page.getElementsByClass("title_bot_bg");
-        String[] sarray = elements.toString().split("/tr");
-        scanAll(sarray, t);
+    private void getNewest(String[] strings) throws IOException {
+        for (int i = 0; i < 3; i++) {
+            Document page = Jsoup.parse(resultConnect(strings[i]));
+            Elements elements = page.getElementsByClass("title_bot_bg");
+            String[] sarray = elements.toString().split("/tr");
+            Map<String, Long> listNews = listPersonRealTime(sarray);
+            setMapAll(listNews);
+        }
+
     }
-
-    private void scanAll(String[] sarray, int t) {
-        if (t==0) {
-            if (timeNews != timeTrader) {
-                mapTrader.remove(timeTrader);
-                timeTrader =  timeNews;
-                mapTrader.put(timeNews, listPersonRealTime(sarray));
-            }
-            if (mapTrader.isEmpty()) {
-                System.out.println("---------- Start trader ---------");
-                mapTrader.put(timeNews, listPersonRealTime(sarray));
-            }
-        } else if (t == 1) {
-            if (timeNews != timeHunter) {
-                mapHunter.remove(timeHunter);
-                timeHunter =  timeNews;
-                mapHunter.put(timeNews, listPersonRealTime(sarray));
-            }
-            if (mapHunter.isEmpty()) {
-                System.out.println("---------- Start hunter ---------");
-                mapHunter.put(timeNews, listPersonRealTime(sarray));
-            }
-        } else {
-            if (timeNews != timeThief) {
-                mapThief.remove(timeHunter);
-                timeThief =  timeNews;
-                mapThief.put(timeNews, listPersonRealTime(sarray));
-            }
-            if (mapThief.isEmpty()) {
-                System.out.println("---------- Start thief ---------");
-                mapThief.put(timeNews, listPersonRealTime(sarray));
-            }
-        }
-
-        Map<String, Long> people;
-        if ( t== 0) {
-            people = mapTrader.get(timeNews);
-        } else if (t == 1) {
-            people = mapHunter.get(timeNews);
-        } else {
-            people = mapThief.get(timeNews);
-        }
-        if (people.isEmpty()) {
+    private void setMapAll (Map<String, Long> listNews) {
+        if (mapAll.isEmpty()) {
+            mapAll.put(timeNews, listNews);
+            mapTemp.putAll(mapAll);
             return;
         }
-        Map<String, Long> listNews = listPersonRealTime(sarray);
+        scanAll(listNews);
+    }
+    private void scanAll(Map<String, Long> listNews) {
         Collection<String> a = listNews.keySet();
         a.stream().forEach(x -> {
-            if (people.get(x).longValue() != listNews.get(x).longValue()) {
+            Map<String, Long> people = mapAll.get(timeNews);
+            if (mapAll.get(timeNews).get(x) == null) {
+                mapAll.get(timeNews).put(x, listNews.get(x).longValue());
+                mapTemp.get(timeNews).put(x, listNews.get(x).longValue());
+                people.put(x, listNews.get(x).longValue());
+            }
+            if (people.isEmpty()) {
+                return;
+            }
+            if ((people.get(x).longValue() != listNews.get(x).longValue()) && mapTemp.get(timeNews).get(x).longValue() != listNews.get(x).longValue()) {
                 String text =  (people.get(x).longValue() > listNews.get(x).longValue()) ? " down" : " up";
                 if (x.equals(sosName)) System.out.print(ANSI_RED + "+ + +" + ANSI_RESET);
                 System.out.println(" -> " + x + text + " point at: " +((LocalDateTime.now().getHour() < 10) ? "0"+LocalDateTime.now().getHour() : LocalDateTime.now().getHour() ) + "h" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
-                    bel = true;
-                    if (x.equals(sosName)) {
-                        sos = true;
-                    }
+                bel = true;
+                if (x.equals(sosName)) {
+                    sos = true;
+                }
+                mapTemp.get(timeNews).put(x, listNews.get(x).longValue());
             }
         });
     }
