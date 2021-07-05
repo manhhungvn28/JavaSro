@@ -18,16 +18,13 @@ import java.util.*;
 
 public class HTTPUnitDriver {
     public Map<Long, Map<String, Long>> mapAll =  new HashMap<>();
-    public Map<Long, Map<String, Long>> mapTemp =  new HashMap<>();
 
     private static LocalDateTime local = LocalDateTime.now();
     private static long timeReset =  local.getNano();
     private static long timeNews = timeReset;
-    private int ttime = 0;
     private boolean sos = false;
     private boolean bel = false;
     private long timeSleep = 0;
-    private int distancePerRequest = 0;
     private static File normalSound = null;
     private static File sosSound = null;
     public static final String ANSI_RED = "\u001B[31m";
@@ -46,36 +43,28 @@ public class HTTPUnitDriver {
         String[] strings = null;
         while (myReader.hasNextLine()) {
             strings = myReader.nextLine().split(",");
-
         }
         myReader.close();
         normalSound = new File(strings[5] + strings[3]);
         sosSound = new File(strings[5] + strings[4]);
         sosName = strings[6];
         timeSleep = Long.valueOf(strings[7]);
-        distancePerRequest = Long.valueOf(strings[8]).intValue();
+        System.out.println("--------------");
         while (local.compareTo(dateTime.now().plusDays(30)) < 0) {
-            ttime = ttime + 1;
-            System.out.println("-> Times: "+ ttime);
             getNewest(strings);
             try {
                 if (sos && bel) {
+                    System.out.println("--------------");
                     Desktop.getDesktop().open(sosSound);
+                    sos = false;
+                    bel = false;
                 } else if (bel) {
+                    System.out.println("--------------");
+                    bel = false;
                     Desktop.getDesktop().open(normalSound);
                 }
             } catch (IOException e) {
                 e.printStackTrace();
-            }
-            if (LocalDateTime.now().compareTo(local.plusMinutes(distancePerRequest)) > 0) {
-                local =  local.plusMinutes(distancePerRequest);
-                System.out.println("-> Reset: " + ((local.getHour() < 10) ? "0"+local.getHour() : local.getHour()) + "h" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
-                sos = false;
-                bel = false;
-                mapAll.remove(timeNews);
-                mapTemp.remove(timeNews);
-                timeNews = timeNews + local.getNano();
-                getNewest(strings);
             }
             Thread.sleep(timeSleep);
         }
@@ -94,7 +83,6 @@ public class HTTPUnitDriver {
     private void setMapAll (Map<String, Long> listNews) {
         if (mapAll.isEmpty()) {
             mapAll.put(timeNews, listNews);
-            mapTemp.putAll(mapAll);
             return;
         }
         scanAll(listNews);
@@ -102,24 +90,21 @@ public class HTTPUnitDriver {
     private void scanAll(Map<String, Long> listNews) {
         Collection<String> a = listNews.keySet();
         a.stream().forEach(x -> {
-            Map<String, Long> people = mapAll.get(timeNews);
-            if (mapAll.get(timeNews).get(x) == null) {
-                mapAll.get(timeNews).put(x, listNews.get(x).longValue());
-                mapTemp.get(timeNews).put(x, listNews.get(x).longValue());
-                people.put(x, listNews.get(x).longValue());
-            }
-            if (people.isEmpty()) {
+            if (mapAll.get(timeNews).isEmpty()) {
                 return;
             }
-            if ((people.get(x).longValue() != listNews.get(x).longValue()) && mapTemp.get(timeNews).get(x).longValue() != listNews.get(x).longValue()) {
-                String text =  (people.get(x).longValue() > listNews.get(x).longValue()) ? " down" : " up";
-                if (x.equals(sosName)) System.out.print(ANSI_RED + "+ + +" + ANSI_RESET);
-                System.out.println(" -> " + x + text + " point at: " +((LocalDateTime.now().getHour() < 10) ? "0"+LocalDateTime.now().getHour() : LocalDateTime.now().getHour() ) + "h" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
+            if (mapAll.get(timeNews).get(x) == null) {
+                mapAll.get(timeNews).put(x, listNews.get(x).longValue());
+            }
+            if ((mapAll.get(timeNews).get(x).longValue() != listNews.get(x).longValue())) {
+                String text =  (mapAll.get(timeNews).get(x).longValue() > listNews.get(x).longValue()) ? " down" : " up";
                 bel = true;
                 if (x.equals(sosName)) {
                     sos = true;
+                    System.out.print(ANSI_RED + "+ + +" + ANSI_RESET);
                 }
-                mapTemp.get(timeNews).put(x, listNews.get(x).longValue());
+                System.out.println(" -> " + x + text + " point at: " +((LocalDateTime.now().getHour() < 10) ? "0"+LocalDateTime.now().getHour() : LocalDateTime.now().getHour() ) + "h" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
+                mapAll.get(timeNews).put(x, listNews.get(x).longValue());
             }
         });
     }
@@ -138,8 +123,8 @@ public class HTTPUnitDriver {
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
         con.setRequestProperty("Content-Type", "application/json");
-        con.setConnectTimeout(5000);
-        con.setReadTimeout(5000);
+        con.setConnectTimeout(25000);
+        con.setReadTimeout(25000);
         BufferedReader in = new BufferedReader(
                 new InputStreamReader(con.getInputStream()));
         String inputLine;
