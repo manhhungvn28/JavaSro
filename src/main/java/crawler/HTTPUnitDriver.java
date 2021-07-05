@@ -38,7 +38,7 @@ public class HTTPUnitDriver {
         String str = "2021-06-24 00:00:00";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         LocalDateTime dateTime = LocalDateTime.parse(str, formatter);
-        File myObj = new File("E:\\toolsro\\config.txt");
+        File myObj = new File("config.txt");
         Scanner myReader = new Scanner(myObj);
         String[] strings = null;
         while (myReader.hasNextLine()) {
