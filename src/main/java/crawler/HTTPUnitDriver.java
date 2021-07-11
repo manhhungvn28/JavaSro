@@ -70,7 +70,7 @@ public class HTTPUnitDriver {
         }
     }
 
-    private void getNewest(String[] strings) throws IOException {
+    private void getNewest(String[] strings) throws InterruptedException {
         for (int i = 0; i < 3; i++) {
             Document page = Jsoup.parse(resultConnect(strings[i]));
             Elements elements = page.getElementsByClass("title_bot_bg");
@@ -118,22 +118,28 @@ public class HTTPUnitDriver {
         return m;
     }
 
-    public String resultConnect (String link) throws IOException {
-        URL url = new URL(link);
-        HttpURLConnection con = (HttpURLConnection) url.openConnection();
-        con.setRequestMethod("GET");
-        con.setRequestProperty("Content-Type", "application/json");
-        con.setConnectTimeout(25000);
-        con.setReadTimeout(25000);
-        BufferedReader in = new BufferedReader(
-                new InputStreamReader(con.getInputStream()));
-        String inputLine;
-        StringBuffer content = new StringBuffer();
-        while ((inputLine = in.readLine()) != null) {
-            content.append(inputLine);
+    public String resultConnect (String link) throws InterruptedException {
+        try {
+            URL url = new URL(link);
+            HttpURLConnection con = (HttpURLConnection) url.openConnection();
+            con.setRequestMethod("GET");
+            con.setRequestProperty("Content-Type", "application/json");
+            con.setConnectTimeout(25000);
+            con.setReadTimeout(25000);
+            BufferedReader in = new BufferedReader(
+                    new InputStreamReader(con.getInputStream()));
+            String inputLine;
+            StringBuffer content = new StringBuffer();
+            while ((inputLine = in.readLine()) != null) {
+                content.append(inputLine);
+            }
+            in.close();
+            return content.toString();
+        } catch (IOException e) {
+            System.out.println("Retry connect to server");
+            Thread.sleep(5000);
+            return this.resultConnect(link);
         }
-        in.close();
-        return content.toString();
     }
 
     public static void main(String[] args) throws Exception {
