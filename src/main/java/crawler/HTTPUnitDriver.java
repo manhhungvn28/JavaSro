@@ -103,8 +103,8 @@ public class HTTPUnitDriver {
                     sos = true;
                     System.out.print(ANSI_RED + "+ + +" + ANSI_RESET);
                 }
-                long t = mapAll.get(timeNews).get(x).longValue() - listNews.get(x).longValue();
-                System.out.println(" -> " + x + text + " point: " + t + " at " + ((LocalDateTime.now().getHour() < 10) ? "0"+LocalDateTime.now().getHour() : LocalDateTime.now().getHour() ) + "h" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
+                long t = listNews.get(x).longValue() - mapAll.get(timeNews).get(x).longValue();
+                System.out.println(" -> " + x + text + ": " + t + " point at " + ((LocalDateTime.now().getHour() < 10) ? "0"+LocalDateTime.now().getHour() : LocalDateTime.now().getHour() ) + "h" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
                 mapAll.get(timeNews).put(x, listNews.get(x).longValue());
             }
         });
