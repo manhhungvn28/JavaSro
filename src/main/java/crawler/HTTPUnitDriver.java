@@ -97,14 +97,13 @@ public class HTTPUnitDriver {
                 mapAll.get(timeNews).put(x, listNews.get(x).longValue());
             }
             if (mapAll.get(timeNews).get(x).longValue() != listNews.get(x).longValue()) {
-                String text =  (mapAll.get(timeNews).get(x).longValue() > listNews.get(x).longValue()) ? " down" : " up";
                 bel = true;
                 if (x.equals(sosName)) {
                     sos = true;
                     System.out.print(ANSI_RED + "+ + +" + ANSI_RESET);
                 }
                 long t = listNews.get(x).longValue() - mapAll.get(timeNews).get(x).longValue();
-                System.out.println(" -> " + x + text + ": " + t + " point at " + ((LocalDateTime.now().getHour() < 10) ? "0"+LocalDateTime.now().getHour() : LocalDateTime.now().getHour() ) + "h" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
+                System.out.println(" -> " + x + ": " + t + " point at " + ((LocalDateTime.now().getHour() < 10) ? "0"+LocalDateTime.now().getHour() : LocalDateTime.now().getHour() ) + "h" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
                 mapAll.get(timeNews).put(x, listNews.get(x).longValue());
             }
         });
