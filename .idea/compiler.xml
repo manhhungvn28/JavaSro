@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaAdvance" />
         <module name="SroJava" />
+        <module name="JavaAdvance" />
       </profile>
     </annotationProcessing>
   </component>

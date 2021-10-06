@@ -80,6 +80,7 @@ public class HTTPUnitDriver {
         }
 
     }
+
     private void setMapAll (Map<String, Long> listNews) {
         if (mapAll.isEmpty()) {
             mapAll.put(timeNews, listNews);
@@ -87,6 +88,7 @@ public class HTTPUnitDriver {
         }
         scanAll(listNews);
     }
+
     private void scanAll(Map<String, Long> listNews) {
         Collection<String> a = listNews.keySet();
         a.stream().forEach(x -> {
