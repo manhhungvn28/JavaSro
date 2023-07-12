@@ -5,18 +5,24 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import java.awt.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 /**
  * @author HungNM
  */
 
-public class HTTPUnitDriver {
+public class CDHT {
     public Map<Long, Map<String, Long>> mapAll =  new HashMap<>();
 
     private static LocalDateTime local = LocalDateTime.now();
@@ -31,24 +37,25 @@ public class HTTPUnitDriver {
     public static final String ANSI_RESET = "\u001B[0m";
     public static  String sosName = "";
 
-    HTTPUnitDriver () throws Exception {
+    CDHT() throws Exception {
         System.out.println("-------------- Hello Hung Ba Thien Ha -----------");
         System.out.println("-------------- Start Scan ------------");
         System.out.println("-------------- Start Time: " + local);
         String str = "2023-08-01 00:00:00";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         LocalDateTime dateTime = LocalDateTime.parse(str, formatter);
-        File myObj = new File("config.txt");
+        File myObj = new File("configCDHT.txt");
         Scanner myReader = new Scanner(myObj);
         String[] strings = null;
         while (myReader.hasNextLine()) {
             strings = myReader.nextLine().split(",");
         }
         myReader.close();
-        normalSound = new File(strings[5] + strings[3]);
-        sosSound = new File(strings[5] + strings[4]);
-        sosName = strings[6];
-        timeSleep = Long.valueOf(strings[7]);
+        //string [1] path, string[3] name file mp3
+        normalSound = new File(strings[3] + strings[1]);
+        sosSound = new File(strings[3] + strings[2]);
+        sosName = strings[4];
+        timeSleep = Long.valueOf(strings[5]);
         System.out.println("--------------");
         while (local.compareTo(dateTime.now().plusDays(30)) < 0) {
             getNewest(strings);
@@ -71,14 +78,12 @@ public class HTTPUnitDriver {
     }
 
     private void getNewest(String[] strings) throws InterruptedException {
-        for (int i = 0; i < 3; i++) {
-            Document page = Jsoup.parse(resultConnect(strings[i]));
-            Elements elements = page.getElementsByClass("title_bot_bg");
+            Document page = Jsoup.parse(resultConnect(strings[0]));
+            Elements elements = page.getElementsByClass("item-show");
+            elements.remove(0);
             String[] sarray = elements.toString().split("/tr");
             Map<String, Long> listNews = listPersonRealTime(sarray);
             setMapAll(listNews);
-        }
-
     }
 
     private void setMapAll (Map<String, Long> listNews) {
@@ -113,9 +118,17 @@ public class HTTPUnitDriver {
 
     private Map<String, Long> listPersonRealTime(String[] sarray) {
         Map<String, Long> m = new HashMap<>();
-        for (int i = 0; i < sarray.length - 1; i++) {
+        System.out.println(sarray.length);
+        for (int i = 1; i < sarray.length - 1; i++) {
             String[] user = sarray[i].split("</td>");
-            m.put(user[1].trim().substring(4, user[1].trim().length()), Long.valueOf(user[3].trim().substring(4, user[3].trim().length()).replace(".", "").toString()));
+            if (user.length < 4 || user[2].split(">").length < 3 || user[2].split(">")[user[2].split(">").length-2].length() <4) {
+                System.out.println("- break");
+                continue;
+            }
+            String[] t = user[2].split(">");
+            System.out.println(t[t.length-2].trim().substring(0, t[t.length-2].length()-4).trim());
+            System.out.println(Long.valueOf(user[4].trim().replaceAll("%", "").replaceAll("<td>","").toString()));
+            m.put(t[t.length-2].trim().substring(0, t[t.length-2].length()-4).trim(), Long.valueOf(user[4].trim().replaceAll("%", "").replaceAll("<td>","").toString()));
         }
         return m;
     }
@@ -146,6 +159,6 @@ public class HTTPUnitDriver {
     }
 
     public static void main(String[] args) throws Exception {
-        new HTTPUnitDriver();
+        new CDHT();
     }
 }
