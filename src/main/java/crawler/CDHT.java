@@ -77,7 +77,6 @@ public class CDHT {
                 e.printStackTrace();
             }
             Thread.sleep(timeSleep);
-            System.out.println("-          -----             -  " +  LocalDateTime.now().getHour()+ ":" +  LocalDateTime.now().getMinute()+ ":" +  LocalDateTime.now().getSecond());
         }
     }
 
@@ -132,9 +131,9 @@ public class CDHT {
             String[] t = user[2].split(">");
             if (t[t.length-2].trim().substring(0, t[t.length-2].length()-4).trim().isEmpty()) {
                 String s = t[t.length-3].trim().split("href=\"https://cdht.zoneplay.vn/player/")[1];
-                m.put(s.substring(0, s.length()-1), Long.valueOf(user[4].trim().replaceAll("[%,<td>]", "").toString()));
+                m.put(s.substring(0, s.length()-1) + " I " , Long.valueOf(user[6].trim().replaceAll("[<td>]", "").toString()));
             } else {
-                m.put(t[t.length-2].trim().substring(0, t[t.length-2].length()-4).trim(), Long.valueOf(user[4].trim().replaceAll("[%,<td>]", "").toString()));
+                m.put(t[t.length-2].trim().substring(0, t[t.length-2].length()-4).trim(), Long.valueOf(user[6].trim().replaceAll("[<td>]", "").toString()));
             }
         }
         return m;
