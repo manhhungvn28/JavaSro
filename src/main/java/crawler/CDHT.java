@@ -41,7 +41,6 @@ public class CDHT {
 
     CDHT() throws Exception {
         System.out.println("-------------- Hello Hung Ba Thien Ha -----------");
-        System.out.println("-------------- Start Scan ------------");
         System.out.println("-------------- Start Time: " + local);
         String str = "2023-08-01 00:00:00";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
@@ -59,7 +58,7 @@ public class CDHT {
         sosName = strings[4];
         traderOrHunter = Integer.valueOf(strings[6]);
         timeSleep = Long.valueOf(strings[5]);
-        System.out.println("--------------");
+        System.out.println("--------------" + strings[0]);
         while (local.compareTo(dateTime.now().plusDays(30)) < 0) {
             getNewest(strings);
             try {
