@@ -2,6 +2,7 @@ package crawler;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.awt.*;
@@ -36,6 +37,7 @@ public class CDHT {
     public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_RESET = "\u001B[0m";
     public static  String sosName = "";
+    public static  int traderOrHunter = 2;
 
     CDHT() throws Exception {
         System.out.println("-------------- Hello Hung Ba Thien Ha -----------");
@@ -51,10 +53,11 @@ public class CDHT {
             strings = myReader.nextLine().split(",");
         }
         myReader.close();
-        //string [1] path, string[3] name file mp3
+        //string [1] path, string[3] name file mp3, strings[6] choice thief or trader or hunter
         normalSound = new File(strings[3] + strings[1]);
         sosSound = new File(strings[3] + strings[2]);
         sosName = strings[4];
+        traderOrHunter = Integer.valueOf(strings[6]);
         timeSleep = Long.valueOf(strings[5]);
         System.out.println("--------------");
         while (local.compareTo(dateTime.now().plusDays(30)) < 0) {
@@ -74,6 +77,7 @@ public class CDHT {
                 e.printStackTrace();
             }
             Thread.sleep(timeSleep);
+            System.out.println("-          -----             -  " +  LocalDateTime.now().getHour()+ ":" +  LocalDateTime.now().getMinute()+ ":" +  LocalDateTime.now().getSecond());
         }
     }
 
@@ -81,6 +85,7 @@ public class CDHT {
             Document page = Jsoup.parse(resultConnect(strings[0]));
             Elements elements = page.getElementsByClass("item-show");
             elements.remove(0);
+            elements.remove(traderOrHunter);
             String[] sarray = elements.toString().split("/tr");
             Map<String, Long> listNews = listPersonRealTime(sarray);
             setMapAll(listNews);
@@ -118,17 +123,19 @@ public class CDHT {
 
     private Map<String, Long> listPersonRealTime(String[] sarray) {
         Map<String, Long> m = new HashMap<>();
-        System.out.println(sarray.length);
         for (int i = 1; i < sarray.length - 1; i++) {
             String[] user = sarray[i].split("</td>");
             if (user.length < 4 || user[2].split(">").length < 3 || user[2].split(">")[user[2].split(">").length-2].length() <4) {
-                System.out.println("- break");
+//                System.out.println("- break");
                 continue;
             }
             String[] t = user[2].split(">");
-            System.out.println(t[t.length-2].trim().substring(0, t[t.length-2].length()-4).trim());
-            System.out.println(Long.valueOf(user[4].trim().replaceAll("%", "").replaceAll("<td>","").toString()));
-            m.put(t[t.length-2].trim().substring(0, t[t.length-2].length()-4).trim(), Long.valueOf(user[4].trim().replaceAll("%", "").replaceAll("<td>","").toString()));
+            if (t[t.length-2].trim().substring(0, t[t.length-2].length()-4).trim().isEmpty()) {
+                String s = t[t.length-3].trim().split("href=\"https://cdht.zoneplay.vn/player/")[1];
+                m.put(s.substring(0, s.length()-1), Long.valueOf(user[4].trim().replaceAll("[%,<td>]", "").toString()));
+            } else {
+                m.put(t[t.length-2].trim().substring(0, t[t.length-2].length()-4).trim(), Long.valueOf(user[4].trim().replaceAll("[%,<td>]", "").toString()));
+            }
         }
         return m;
     }
