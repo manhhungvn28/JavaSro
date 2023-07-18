@@ -41,7 +41,7 @@ public class CDHT {
 
     CDHT() throws Exception {
         System.out.println("-------------- Hello Hung Ba Thien Ha -----------");
-        System.out.println("-------------- Start Time: " + local);
+        System.out.println("-------------- Start Time: " + ((LocalDateTime.now().getHour() < 10) ? "0"+LocalDateTime.now().getHour() : LocalDateTime.now().getHour() ) + "h" + ((LocalDateTime.now().getMinute() < 10) ? "0"+LocalDateTime.now().getMinute() : LocalDateTime.now().getMinute() ));
         String str = "2023-08-01 00:00:00";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         LocalDateTime dateTime = LocalDateTime.parse(str, formatter);
