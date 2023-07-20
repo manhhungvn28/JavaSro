@@ -1,0 +1,1305 @@
+<turbo-frame frame_id="robin_games" id="robin_games">
+    <!-- Games -->
+
+  <turbo-frame loading="lazy" id="robin_games_1" src="https://playpass.com/api/v2/robins/TtvPky/robin_games?page=1&amp;s=manage" complete="">
+    <turbo-frame frame_id="robin_game_105008206" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008206/edit" id="robin_game_105008206">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=1&amp;v=team">Phuong; 4.00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=4&amp;v=team">Quyet; 7.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 1
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008207" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008207/edit" id="robin_game_105008207">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=5&amp;v=team">Trinh; 2.00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=8&amp;v=team">MA; 4.50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 2
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008208" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008208/edit" id="robin_game_105008208">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=9&amp;v=team">A Duoc; 1.00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=12&amp;v=team">Cao Vu; 7.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 3
+      </p>
+
+        <p>
+          Group C
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008209" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008209/edit" id="robin_game_105008209">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=13&amp;v=team">Vo Son; 4.50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=16&amp;v=team">Huynh; 8.50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 4
+      </p>
+
+        <p>
+          Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008210" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008210/edit" id="robin_game_105008210">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=2&amp;v=team">Hiep; 6.00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=3&amp;v=team">A Ngoc; 6.75</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 5
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008211" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008211/edit" id="robin_game_105008211">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=6&amp;v=team">A Duc; 4.25</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=7&amp;v=team">Viet; 1.50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 6
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008212" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008212/edit" id="robin_game_105008212">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=10&amp;v=team">Tien; 6.50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=11&amp;v=team">Thanh; 6.75</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 7
+      </p>
+
+        <p>
+          Group C
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008213" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008213/edit" id="robin_game_105008213">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=14&amp;v=team">Tung; 7.00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=15&amp;v=team">Long; 8.50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 8
+      </p>
+
+        <p>
+          Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008214" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008214/edit" id="robin_game_105008214">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=3&amp;v=team">A Ngoc; 6.75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=1&amp;v=team">Phuong; 4.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 9
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008215" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008215/edit" id="robin_game_105008215">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=7&amp;v=team">Viet; 1.50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=5&amp;v=team">Trinh; 2.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 10
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008216" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008216/edit" id="robin_game_105008216">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=11&amp;v=team">Thanh; 6.75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=9&amp;v=team">A Duoc; 1.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 11
+      </p>
+
+        <p>
+          Group C
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008217" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008217/edit" id="robin_game_105008217">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=15&amp;v=team">Long; 8.50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=13&amp;v=team">Vo Son; 4.50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 12
+      </p>
+
+        <p>
+          Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008218" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008218/edit" id="robin_game_105008218">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=4&amp;v=team">Quyet; 7.00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=2&amp;v=team">Hiep; 6.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 13
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008219" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008219/edit" id="robin_game_105008219">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=8&amp;v=team">MA; 4.50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=6&amp;v=team">A Duc; 4.25</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 14
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008220" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008220/edit" id="robin_game_105008220">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=12&amp;v=team">Cao Vu; 7.00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=10&amp;v=team">Tien; 6.50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 15
+      </p>
+
+        <p>
+          Group C
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008221" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008221/edit" id="robin_game_105008221">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=16&amp;v=team">Huynh; 8.50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=14&amp;v=team">Tung; 7.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 16
+      </p>
+
+        <p>
+          Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008222" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008222/edit" id="robin_game_105008222">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=1&amp;v=team">Phuong; 4.00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=2&amp;v=team">Hiep; 6.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 17
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008223" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008223/edit" id="robin_game_105008223">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=5&amp;v=team">Trinh; 2.00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=6&amp;v=team">A Duc; 4.25</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 18
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008224" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008224/edit" id="robin_game_105008224">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=9&amp;v=team">A Duoc; 1.00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=10&amp;v=team">Tien; 6.50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 19
+      </p>
+
+        <p>
+          Group C
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008225" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008225/edit" id="robin_game_105008225">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=13&amp;v=team">Vo Son; 4.50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=14&amp;v=team">Tung; 7.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 20
+      </p>
+
+        <p>
+          Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008226" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008226/edit" id="robin_game_105008226">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=3&amp;v=team">A Ngoc; 6.75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=4&amp;v=team">Quyet; 7.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 21
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008227" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008227/edit" id="robin_game_105008227">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=7&amp;v=team">Viet; 1.50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=8&amp;v=team">MA; 4.50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 22
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008228" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008228/edit" id="robin_game_105008228">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=11&amp;v=team">Thanh; 6.75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=12&amp;v=team">Cao Vu; 7.00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 23
+      </p>
+
+        <p>
+          Group C
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_105008229" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008229/edit" id="robin_game_105008229">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=15&amp;v=team">Long; 8.50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=16&amp;v=team">Huynh; 8.50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 24
+      </p>
+
+        <p>
+          Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame>
+
+</turbo-frame>
+
+</turbo-frame>

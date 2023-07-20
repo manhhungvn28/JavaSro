@@ -1,0 +1,16 @@
+Phuong; 4.00
+Hiep; 6.00
+A Ngoc; 6.75
+Quyet; 7.00
+Trinh; 2.00
+A Duc; 4.25
+Viet; 1.50
+MA; 4.50
+A Duoc; 1.00
+Tien; 6.50
+Thanh; 6.75
+Cao Vu; 7.00
+Vo Son; 4.50
+Tung; 7.00
+Long; 8.50
+Huynh; 8.50
