@@ -44,7 +44,7 @@ public class Point {
             System.out.println(e.getMessage());
         }
     }
-
+    // tỷ lệ các trận của 1 bảng
     private void matchOnlyInGroup() {
         System.out.println("Bang A");
         for (int i = 0; i < listf.size(); i++) {
@@ -75,7 +75,7 @@ public class Point {
             }
         }
     }
-
+    // 2 bảng tren 1 bàn
     private void twoGroupInOneTable() {
         System.out.println("Bang A va Bang B");
         for (int i = 0; i < listf.size(); i++) {
