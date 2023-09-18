@@ -85,6 +85,7 @@ public class CDHT {
             elements.remove(0);
             elements.remove(traderOrHunter);
             String[] sarray = elements.toString().split("/tr");
+
             Map<String, Long> listNews = listPersonRealTime(sarray);
             setMapAll(listNews);
     }
