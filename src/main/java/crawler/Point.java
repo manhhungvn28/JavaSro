@@ -145,8 +145,20 @@ public class Point {
         if ((4.50  < a) && (a <= 4.75)) {
             return "5-4-5";
         }
-        if ((4.75  < a)) {
+        if ((4.75  < a && a <= 5.25)) {
             return "5-5-5";
+        }
+        if ((5.25 < a && a <= 5.50)) {
+            return "5-6-5";
+        }
+        if ((5.50 < a && a <= 5.75)) {
+            return "6-5-6";
+        }
+        if ((5.75 < a && a <= 6.25)) {
+            return "6-6-6";
+        }
+        if ((6.25 < a)) {
+            return "6-6-7-6-6";
         }
         System.out.println(a);
         return "--";
