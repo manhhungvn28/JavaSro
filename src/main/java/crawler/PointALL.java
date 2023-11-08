@@ -18,6 +18,7 @@ public class PointALL {
     Map<String, Double> list = new HashMap<>();
     List<String> listS = new ArrayList<>();
     List<String> listf = new ArrayList<>();
+    List<String> listt = new ArrayList<>();
     public static void main(String[] args){
         new PointALL();
     }
@@ -34,9 +35,10 @@ public class PointALL {
                listS.add(data);
             }
             myReader.close();
+            Collections.reverse(listS);
             process(listS, 0);
             //
-            matchOnlyInGroup();
+            matchOnlyInGroup1();
             //
 //            twoGroupInOneTable();
         } catch (Exception e) {
@@ -45,13 +47,27 @@ public class PointALL {
     }
     // tỷ lệ các trận
     private void matchOnlyInGroup() {
-        for (int i = 0; i < listf.size(); i++) {
-//            int z = i %4;
-//            if (z == 0) {
-                System.out.println(listf.get(i));
-//            }
+        System.out.println(listf.size());
+        for (int i = 0; i < listf.size()+3; i=i+4) {
+            listt.add(((i<listf.size()) ? listf.get(i) : "") + "\t\t" + ((i<listf.size()-1) ? listf.get(i+1) : "") + "\t\t" + ((i<listf.size()-2) ? listf.get(i+2): "")+ "\t\t" + ((i<listf.size()-3) ? listf.get(i+3): ""));
+        }
+        for (int i = 0; i < listt.size(); i++) {
+            System.out.println(listt.get(i));
         }
 
+    }
+
+    private void matchOnlyInGroup1() {
+        System.out.println(listf.size());
+        for (int i = 0; i < listf.size(); i++) {
+            if (i > 0 && i%4 ==0) {
+                System.out.println("");
+            }
+            System.out.print(listf.get(i));
+            System.out.print("\t\t");
+
+        }
+        System.out.println("");
     }
 
     public String process(List<String > list, int t) {
@@ -59,7 +75,7 @@ public class PointALL {
             for (int j = i+1; j < list.size(); j++) {
                 Double a = Double.valueOf(list.get(i).split(";")[1].replace(",", ".")) - Double.valueOf(list.get(j).split(";")[1].replace(",", "."));
                 double b = Math.round(Math.abs(a)*100.0)/100.0;
-                listf.add(list.get(i).replace(";", ":") +" vs "+ list.get(j).replace(";", ":") + " : \t \t" + rate(b));
+                listf.add(list.get(i).replace(";", ":") +" vs "+ list.get(j).replace(";", ":") + " : \t" + rate(b));
             }
         }
         return "";

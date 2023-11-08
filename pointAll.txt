@@ -1,12 +1,12 @@
 Trinh;4,00
-Do V.Phuong;4,00
+V.Phuong;4,00
 Lee Viet;4.25
 A Duc;4,25
 Em Trang S1;4.25
 Khong Linh;4.25
+A Hung pl;4,25
 E Minh;4.75
 Chu Quan;5,00
-A Hung pl;5,00
 A Tu GS;5.50
 Tr Kien;5,75
 A Hai Robert;6,5
@@ -34,7 +34,7 @@ A Cuong;10,00
 A Ben S1;10.25
 Hai Beo;10,50
 PN Chinh;10,50
-Chu Tuan gai;11,75
+Chu TuanGai;11,75
 Hung - CN;12,00
 E Thang 96;12,50
 E Phuc;14.25
@@ -42,4 +42,4 @@ Huy Anh;14,50
 Tu 2k3;14,50
 Khac Son;16,00
 Hai lua;17,25
-Tan Tim;17,25
+T?n Tim;17,25
