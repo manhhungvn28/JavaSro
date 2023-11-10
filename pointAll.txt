@@ -1,3 +1,4 @@
+A Trung;3,00
 Trinh;4,00
 V.Phuong;4,00
 Lee Viet;4.25
@@ -42,4 +43,4 @@ Huy Anh;14,50
 Tu 2k3;14,50
 Khac Son;16,00
 Hai lua;17,25
-T?n Tim;17,25
+Tan Tim;17,25
