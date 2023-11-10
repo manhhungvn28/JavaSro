@@ -13,7 +13,6 @@ Tr Kien;5,75
 A Hai Robert;6,5
 E Vu 2k;6,50
 Xuan Binh;6,50
-E Hiep;6,75
 Tung bom;7,00
 E Quyet;7,25
 NAN;7.50

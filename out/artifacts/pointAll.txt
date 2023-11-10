@@ -1,0 +1,45 @@
+A Trung;3,00
+Trinh;4,00
+V.Phuong;4,00
+Lee Viet;4.25
+A Duc;4,25
+Em Trang S1;4.25
+Khong Linh;4.25
+A Hung pl;4,25
+E Minh;4.75
+Chu Quan;5,00
+A Tu GS;5.50
+Tr Kien;5,75
+A Hai Robert;6,5
+E Vu 2k;6,50
+Xuan Binh;6,50
+Tung bom;7,00
+E Quyet;7,25
+NAN;7.50
+Chien S4;7,75
+Park;8,00
+A Tuan (77);8,00
+A Thuyet;8,00
+Long S1;8.50
+Huynh;9,00
+A Que S4;9,00
+A Huan;6,25
+A Thuong;6,50
+Thanh;6,75
+A Ngoc;7,25
+Tuan Ani;9,50
+Hung con;9,50
+Em Dat 09;10,00
+A Cuong;10,00
+A Ben S1;10.25
+Hai Beo;10,50
+PN Chinh;10,50
+Chu TuanGai;11,75
+Hung - CN;12,00
+E Thang 96;12,50
+E Phuc;14.25
+Huy Anh;14,50
+Tu 2k3;14,50
+Khac Son;16,00
+Hai lua;17,25
+Tan Tim;17,25
