@@ -1,8 +1,8 @@
 <turbo-frame frame_id="robin_games" id="robin_games">
     <!-- Games -->
 
-  <turbo-frame loading="lazy" id="robin_games_1" src="https://playpass.com/api/v2/robins/TtvPky/robin_games?page=1&amp;s=manage" complete="">
-    <turbo-frame frame_id="robin_game_105008206" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008206/edit" id="robin_game_105008206">
+  <turbo-frame loading="lazy" id="robin_games_1" src="https://playpass.com/api/v2/robins/XFtwqq/robin_games?page=1&amp;s=manage" complete="">
+    <turbo-frame frame_id="robin_game_117293492" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293492/edit" id="robin_game_117293492">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -10,14 +10,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=1&amp;v=team">Phuong; 4.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=1&amp;v=team">Mai Anh-Linh Vợ Sơn;9,00</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=4&amp;v=team">Quyet; 7.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=6&amp;v=team">A Quyết impe-A Dực;5,50</a>
   </p>
 </div>
 
@@ -56,7 +56,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008207" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008207/edit" id="robin_game_105008207">
+</turbo-frame><turbo-frame frame_id="robin_game_117293493" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293493/edit" id="robin_game_117293493">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -64,14 +64,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=5&amp;v=team">Trinh; 2.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=7&amp;v=team">Hải S1-Tuấn Ani;20,00</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=8&amp;v=team">MA; 4.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=12&amp;v=team">Vũ Trần-A Thưởng;11,75</a>
   </p>
 </div>
 
@@ -110,7 +110,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008208" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008208/edit" id="robin_game_105008208">
+</turbo-frame><turbo-frame frame_id="robin_game_117293494" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293494/edit" id="robin_game_117293494">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -118,14 +118,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=9&amp;v=team">A Duoc; 1.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=14&amp;v=team">Con a Thuyết-Khắc Sơn;18,00</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=12&amp;v=team">Cao Vu; 7.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=17&amp;v=team">A Đình Long s1-A Tiệp;16,25</a>
   </p>
 </div>
 
@@ -164,7 +164,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008209" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008209/edit" id="robin_game_105008209">
+</turbo-frame><turbo-frame frame_id="robin_game_117293495" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293495/edit" id="robin_game_117293495">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -172,14 +172,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=13&amp;v=team">Vo Son; 4.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=19&amp;v=team">Cô Hiền-A Chi;8,25</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=16&amp;v=team">Huynh; 8.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=22&amp;v=team">Chú Doan-A Hùng Phatland;8,00</a>
   </p>
 </div>
 
@@ -218,7 +218,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008210" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008210/edit" id="robin_game_105008210">
+</turbo-frame><turbo-frame frame_id="robin_game_117293496" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293496/edit" id="robin_game_117293496">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -226,14 +226,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=2&amp;v=team">Hiep; 6.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=2&amp;v=team">A Thành impe-A Cường S4;17,25</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=3&amp;v=team">A Ngoc; 6.75</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=5&amp;v=team">Em Trang S1-A Bền S1;16,50</a>
   </p>
 </div>
 
@@ -272,7 +272,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008211" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008211/edit" id="robin_game_105008211">
+</turbo-frame><turbo-frame frame_id="robin_game_117293497" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293497/edit" id="robin_game_117293497">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -280,14 +280,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=6&amp;v=team">A Duc; 4.25</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=8&amp;v=team">E Vũ 2k-E Thắng 96;19,00</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=7&amp;v=team">Viet; 1.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=11&amp;v=team">Em Minh S1-A Ngọc;13,25</a>
   </p>
 </div>
 
@@ -326,7 +326,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008212" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008212/edit" id="robin_game_105008212">
+</turbo-frame><turbo-frame frame_id="robin_game_117293498" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293498/edit" id="robin_game_117293498">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -334,14 +334,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=10&amp;v=team">Tien; 6.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=15&amp;v=team">Lee Việt-E Kiên S1 GS2;12,75</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=11&amp;v=team">Thanh; 6.75</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=16&amp;v=team">Trình-E Hiệp;11,00</a>
   </p>
 </div>
 
@@ -380,7 +380,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008213" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008213/edit" id="robin_game_105008213">
+</turbo-frame><turbo-frame frame_id="robin_game_117293499" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293499/edit" id="robin_game_117293499">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -388,14 +388,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=14&amp;v=team">Tung; 7.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=20&amp;v=team">A Thuyết-Em Đạt 09;17,75</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=15&amp;v=team">Long; 8.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=21&amp;v=team">Chú Công-A Tuấn 77;15,75</a>
   </p>
 </div>
 
@@ -434,7 +434,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008214" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008214/edit" id="robin_game_105008214">
+</turbo-frame><turbo-frame frame_id="robin_game_117293500" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293500/edit" id="robin_game_117293500">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -442,14 +442,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=3&amp;v=team">A Ngoc; 6.75</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=3&amp;v=team">Đỗ Việt Phương-A Tú GS;10,00</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=1&amp;v=team">Phuong; 4.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=4&amp;v=team">Nguyễn Mạnh Hùng-(CN)-Tùng;19,00</a>
   </p>
 </div>
 
@@ -488,7 +488,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008215" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008215/edit" id="robin_game_105008215">
+</turbo-frame><turbo-frame frame_id="robin_game_117293501" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293501/edit" id="robin_game_117293501">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -496,14 +496,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=7&amp;v=team">Viet; 1.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=9&amp;v=team">Huỳnh-Em Long S1;17,75</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=5&amp;v=team">Trinh; 2.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=10&amp;v=team">Em Quyết-Bạn Quyết;18,50</a>
   </p>
 </div>
 
@@ -542,7 +542,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008216" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008216/edit" id="robin_game_105008216">
+</turbo-frame><turbo-frame frame_id="robin_game_117293502" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293502/edit" id="robin_game_117293502">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -550,14 +550,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=11&amp;v=team">Thanh; 6.75</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=17&amp;v=team">A Đình Long s1-A Tiệp;16,25</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=9&amp;v=team">A Duoc; 1.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=13&amp;v=team">Nguyễn Trung Kiên-Chiến S4;13,50</a>
   </p>
 </div>
 
@@ -596,7 +596,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008217" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008217/edit" id="robin_game_105008217">
+</turbo-frame><turbo-frame frame_id="robin_game_117293503" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293503/edit" id="robin_game_117293503">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -604,14 +604,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=15&amp;v=team">Long; 8.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=22&amp;v=team">Chú Doan-A Hùng Phatland;8,00</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=13&amp;v=team">Vo Son; 4.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=18&amp;v=team">Chị Nhung-Ngọc Chinh-Thủ quỹ;15,50</a>
   </p>
 </div>
 
@@ -650,7 +650,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008218" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008218/edit" id="robin_game_105008218">
+</turbo-frame><turbo-frame frame_id="robin_game_117293504" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293504/edit" id="robin_game_117293504">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -658,14 +658,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=4&amp;v=team">Quyet; 7.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=5&amp;v=team">Em Trang S1-A Bền S1;16,50</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=2&amp;v=team">Hiep; 6.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=1&amp;v=team">Mai Anh-Linh Vợ Sơn;9,00</a>
   </p>
 </div>
 
@@ -704,7 +704,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008219" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008219/edit" id="robin_game_105008219">
+</turbo-frame><turbo-frame frame_id="robin_game_117293505" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293505/edit" id="robin_game_117293505">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -712,14 +712,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=8&amp;v=team">MA; 4.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=11&amp;v=team">Em Minh S1-A Ngọc;13,25</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=6&amp;v=team">A Duc; 4.25</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=7&amp;v=team">Hải S1-Tuấn Ani;20,00</a>
   </p>
 </div>
 
@@ -758,7 +758,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008220" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008220/edit" id="robin_game_105008220">
+</turbo-frame><turbo-frame frame_id="robin_game_117293506" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293506/edit" id="robin_game_117293506">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -766,14 +766,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=12&amp;v=team">Cao Vu; 7.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=15&amp;v=team">Lee Việt-E Kiên S1 GS2;12,75</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=10&amp;v=team">Tien; 6.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=14&amp;v=team">Con a Thuyết-Khắc Sơn;18,00</a>
   </p>
 </div>
 
@@ -812,7 +812,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008221" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008221/edit" id="robin_game_105008221">
+</turbo-frame><turbo-frame frame_id="robin_game_117293507" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293507/edit" id="robin_game_117293507">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -820,14 +820,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=16&amp;v=team">Huynh; 8.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=20&amp;v=team">A Thuyết-Em Đạt 09;17,75</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=14&amp;v=team">Tung; 7.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=19&amp;v=team">Cô Hiền-A Chi;8,25</a>
   </p>
 </div>
 
@@ -866,7 +866,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008222" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008222/edit" id="robin_game_105008222">
+</turbo-frame><turbo-frame frame_id="robin_game_117293508" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293508/edit" id="robin_game_117293508">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -874,14 +874,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=1&amp;v=team">Phuong; 4.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=4&amp;v=team">Nguyễn Mạnh Hùng-(CN)-Tùng;19,00</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=2&amp;v=team">Hiep; 6.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=6&amp;v=team">A Quyết impe-A Dực;5,50</a>
   </p>
 </div>
 
@@ -920,7 +920,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008223" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008223/edit" id="robin_game_105008223">
+</turbo-frame><turbo-frame frame_id="robin_game_117293509" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293509/edit" id="robin_game_117293509">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -928,14 +928,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=5&amp;v=team">Trinh; 2.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=10&amp;v=team">Em Quyết-Bạn Quyết;18,50</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=6&amp;v=team">A Duc; 4.25</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=12&amp;v=team">Vũ Trần-A Thưởng;11,75</a>
   </p>
 </div>
 
@@ -974,7 +974,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008224" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008224/edit" id="robin_game_105008224">
+</turbo-frame><turbo-frame frame_id="robin_game_117293510" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293510/edit" id="robin_game_117293510">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -982,14 +982,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=9&amp;v=team">A Duoc; 1.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=13&amp;v=team">Nguyễn Trung Kiên-Chiến S4;13,50</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=10&amp;v=team">Tien; 6.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=16&amp;v=team">Trình-E Hiệp;11,00</a>
   </p>
 </div>
 
@@ -1028,7 +1028,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008225" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008225/edit" id="robin_game_105008225">
+</turbo-frame><turbo-frame frame_id="robin_game_117293511" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293511/edit" id="robin_game_117293511">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -1036,14 +1036,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=13&amp;v=team">Vo Son; 4.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=18&amp;v=team">Chị Nhung-Ngọc Chinh-Thủ quỹ;15,50</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=14&amp;v=team">Tung; 7.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=21&amp;v=team">Chú Công-A Tuấn 77;15,75</a>
   </p>
 </div>
 
@@ -1082,7 +1082,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008226" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008226/edit" id="robin_game_105008226">
+</turbo-frame><turbo-frame frame_id="robin_game_117293512" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293512/edit" id="robin_game_117293512">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -1090,14 +1090,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=3&amp;v=team">A Ngoc; 6.75</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=3&amp;v=team">Đỗ Việt Phương-A Tú GS;10,00</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=4&amp;v=team">Quyet; 7.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=2&amp;v=team">A Thành impe-A Cường S4;17,25</a>
   </p>
 </div>
 
@@ -1136,7 +1136,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008227" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008227/edit" id="robin_game_105008227">
+</turbo-frame><turbo-frame frame_id="robin_game_117293513" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293513/edit" id="robin_game_117293513">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -1144,14 +1144,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=7&amp;v=team">Viet; 1.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=9&amp;v=team">Huỳnh-Em Long S1;17,75</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=8&amp;v=team">MA; 4.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=8&amp;v=team">E Vũ 2k-E Thắng 96;19,00</a>
   </p>
 </div>
 
@@ -1190,7 +1190,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008228" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008228/edit" id="robin_game_105008228">
+</turbo-frame><turbo-frame frame_id="robin_game_117293514" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293514/edit" id="robin_game_117293514">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -1198,14 +1198,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=11&amp;v=team">Thanh; 6.75</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=17&amp;v=team">A Đình Long s1-A Tiệp;16,25</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=12&amp;v=team">Cao Vu; 7.00</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=15&amp;v=team">Lee Việt-E Kiên S1 GS2;12,75</a>
   </p>
 </div>
 
@@ -1244,7 +1244,7 @@
   </div>
 </div>
 
-</turbo-frame><turbo-frame frame_id="robin_game_105008229" data-controller="editor" data-url="/dashboard/ojjfJT/robins/TtvPky/robin_games/105008229/edit" id="robin_game_105008229">
+</turbo-frame><turbo-frame frame_id="robin_game_117293515" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293515/edit" id="robin_game_117293515">
 
 <div class="game">
   <div class="flex flex-auto">
@@ -1252,14 +1252,14 @@
       <div class="flex items-center ">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=15&amp;v=team">Long; 8.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=22&amp;v=team">Chú Doan-A Hùng Phatland;8,00</a>
   </p>
 </div>
 
       <div class="flex items-center mt-1">
 
   <p class=" mr-2">
-      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/16-player-table-tennis-schedule-RTtvPky?c=16&amp;v=team">Huynh; 8.50</a>
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=20&amp;v=team">A Thuyết-Em Đạt 09;17,75</a>
   </p>
 </div>
 
@@ -1278,6 +1278,1410 @@
 
         <p>
           Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293516" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293516/edit" id="robin_game_117293516">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=1&amp;v=team">Mai Anh-Linh Vợ Sơn;9,00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=4&amp;v=team">Nguyễn Mạnh Hùng-(CN)-Tùng;19,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 25
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293517" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293517/edit" id="robin_game_117293517">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=7&amp;v=team">Hải S1-Tuấn Ani;20,00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=10&amp;v=team">Em Quyết-Bạn Quyết;18,50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 26
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293518" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293518/edit" id="robin_game_117293518">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=15&amp;v=team">Lee Việt-E Kiên S1 GS2;12,75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=13&amp;v=team">Nguyễn Trung Kiên-Chiến S4;13,50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 27
+      </p>
+
+        <p>
+          Group C
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293519" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293519/edit" id="robin_game_117293519">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=20&amp;v=team">A Thuyết-Em Đạt 09;17,75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=18&amp;v=team">Chị Nhung-Ngọc Chinh-Thủ quỹ;15,50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 28
+      </p>
+
+        <p>
+          Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293520" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293520/edit" id="robin_game_117293520">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=5&amp;v=team">Em Trang S1-A Bền S1;16,50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=3&amp;v=team">Đỗ Việt Phương-A Tú GS;10,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 29
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293521" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293521/edit" id="robin_game_117293521">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=11&amp;v=team">Em Minh S1-A Ngọc;13,25</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=9&amp;v=team">Huỳnh-Em Long S1;17,75</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 30
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293522" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293522/edit" id="robin_game_117293522">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=14&amp;v=team">Con a Thuyết-Khắc Sơn;18,00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=16&amp;v=team">Trình-E Hiệp;11,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 31
+      </p>
+
+        <p>
+          Group C
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293523" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293523/edit" id="robin_game_117293523">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=19&amp;v=team">Cô Hiền-A Chi;8,25</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=21&amp;v=team">Chú Công-A Tuấn 77;15,75</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 32
+      </p>
+
+        <p>
+          Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293524" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293524/edit" id="robin_game_117293524">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=6&amp;v=team">A Quyết impe-A Dực;5,50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=2&amp;v=team">A Thành impe-A Cường S4;17,25</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 33
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293525" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293525/edit" id="robin_game_117293525">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=12&amp;v=team">Vũ Trần-A Thưởng;11,75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=8&amp;v=team">E Vũ 2k-E Thắng 96;19,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 34
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293526" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293526/edit" id="robin_game_117293526">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=13&amp;v=team">Nguyễn Trung Kiên-Chiến S4;13,50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=14&amp;v=team">Con a Thuyết-Khắc Sơn;18,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 35
+      </p>
+
+        <p>
+          Group C
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293527" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293527/edit" id="robin_game_117293527">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=18&amp;v=team">Chị Nhung-Ngọc Chinh-Thủ quỹ;15,50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=19&amp;v=team">Cô Hiền-A Chi;8,25</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 36
+      </p>
+
+        <p>
+          Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293528" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293528/edit" id="robin_game_117293528">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=3&amp;v=team">Đỗ Việt Phương-A Tú GS;10,00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=1&amp;v=team">Mai Anh-Linh Vợ Sơn;9,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 37
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293529" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293529/edit" id="robin_game_117293529">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=9&amp;v=team">Huỳnh-Em Long S1;17,75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=7&amp;v=team">Hải S1-Tuấn Ani;20,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 38
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293530" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293530/edit" id="robin_game_117293530">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=16&amp;v=team">Trình-E Hiệp;11,00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=17&amp;v=team">A Đình Long s1-A Tiệp;16,25</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 39
+      </p>
+
+        <p>
+          Group C
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293531" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293531/edit" id="robin_game_117293531">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=21&amp;v=team">Chú Công-A Tuấn 77;15,75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=22&amp;v=team">Chú Doan-A Hùng Phatland;8,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 40
+      </p>
+
+        <p>
+          Group D
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293532" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293532/edit" id="robin_game_117293532">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=2&amp;v=team">A Thành impe-A Cường S4;17,25</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=4&amp;v=team">Nguyễn Mạnh Hùng-(CN)-Tùng;19,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 41
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293533" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293533/edit" id="robin_game_117293533">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=8&amp;v=team">E Vũ 2k-E Thắng 96;19,00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=10&amp;v=team">Em Quyết-Bạn Quyết;18,50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 42
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293534" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293534/edit" id="robin_game_117293534">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=6&amp;v=team">A Quyết impe-A Dực;5,50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=5&amp;v=team">Em Trang S1-A Bền S1;16,50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 43
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293535" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293535/edit" id="robin_game_117293535">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=12&amp;v=team">Vũ Trần-A Thưởng;11,75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=11&amp;v=team">Em Minh S1-A Ngọc;13,25</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 44
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293536" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293536/edit" id="robin_game_117293536">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=1&amp;v=team">Mai Anh-Linh Vợ Sơn;9,00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=2&amp;v=team">A Thành impe-A Cường S4;17,25</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 45
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293537" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293537/edit" id="robin_game_117293537">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=7&amp;v=team">Hải S1-Tuấn Ani;20,00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=8&amp;v=team">E Vũ 2k-E Thắng 96;19,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 46
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293538" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293538/edit" id="robin_game_117293538">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=6&amp;v=team">A Quyết impe-A Dực;5,50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=3&amp;v=team">Đỗ Việt Phương-A Tú GS;10,00</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 47
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293539" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293539/edit" id="robin_game_117293539">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=12&amp;v=team">Vũ Trần-A Thưởng;11,75</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=9&amp;v=team">Huỳnh-Em Long S1;17,75</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 48
+      </p>
+
+        <p>
+          Group B
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293540" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293540/edit" id="robin_game_117293540">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=4&amp;v=team">Nguyễn Mạnh Hùng-(CN)-Tùng;19,00</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=5&amp;v=team">Em Trang S1-A Bền S1;16,50</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 49
+      </p>
+
+        <p>
+          Group A
+        </p>
+
+    </div>
+
+      <div class="flex space-x-4 mb-2">
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="edit">Edit</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="score">Score</button>
+          </p>
+
+          <p>
+            <button name="button" type="button" class="btn-accent px-2" data-action="editor#open" data-editor-view="note">Note</button>
+          </p>
+      </div>
+  </div>
+</div>
+
+</turbo-frame><turbo-frame frame_id="robin_game_117293541" data-controller="editor" data-url="/dashboard/ojjfJT/robins/XFtwqq/robin_games/117293541/edit" id="robin_game_117293541">
+
+<div class="game">
+  <div class="flex flex-auto">
+    <div class="flex-auto space-y-1">
+      <div class="flex items-center ">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=10&amp;v=team">Em Quyết-Bạn Quyết;18,50</a>
+  </p>
+</div>
+
+      <div class="flex items-center mt-1">
+
+  <p class=" mr-2">
+      <a class="py-1 block link-accent break-all " data-turbo-frame="_top" rel="nofollow" href="/clb-bong-ban-s3-vinhome-OojjfJT/22-player-table-tennis-schedule-RXFtwqq?c=11&amp;v=team">Em Minh S1-A Ngọc;13,25</a>
+  </p>
+</div>
+
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-wrap mt-3 print:mt-0  text-sm text-muted">
+    <div class="flex flex-wrap space-x-6 mr-6 mb-2">
+
+
+      <p>
+        Game 50
+      </p>
+
+        <p>
+          Group B
         </p>
 
     </div>

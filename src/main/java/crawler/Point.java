@@ -36,38 +36,39 @@ public class Point {
                 toList (element);
             }
             process(listS, 0);
+            ;
             //
 //            matchOnlyInGroup();
             //
-            twoGroupInOneTable();
+//            twoGroupInOneTable();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
     // tỷ lệ các trận của 1 bảng
     private void matchOnlyInGroup() {
-        System.out.println("Bang A");
+        System.out.println("Bảng A");
         for (int i = 0; i < listf.size(); i++) {
             int z = i %4;
             if (z == 0) {
                 System.out.println(listf.get(i));
             }
         }
-        System.out.println("Bang B");
+        System.out.println("Bảng B");
         for (int i = 0; i < listf.size(); i++) {
             int z = i %4;
             if (z == 1) {
                 System.out.println(listf.get(i));
             }
         }
-        System.out.println("Bang C");
+        System.out.println("Bảng C");
         for (int i = 0; i < listf.size(); i++) {
             int z = i %4;
             if (z == 2) {
                 System.out.println(listf.get(i));
             }
         }
-        System.out.println("Bang D");
+        System.out.println("Bảng D");
         for (int i = 0; i < listf.size(); i++) {
             int z = i % 4;
             if (z == 3) {
@@ -102,8 +103,10 @@ public class Point {
         if (t >=list.size()) {
             return "";
         };
-        Double a = Double.valueOf(list.get(t).split(";")[1]) - Double.valueOf(list.get(t+1).split(";")[1]);
-        double b = Math.round(Math.abs(a)*100.0)/100.0;
+        Double a = Double.valueOf(list.get(t).split(";")[1].replace(",", ".")) - Double.valueOf(list.get(t+1).split(";")[1].replace(",", "."));
+//        double b = Math.round(Math.abs(a)*100.0)/100.0;
+        double b = Math.round(Math.abs(a)*100.0)/100.0/2; // for double team
+        System.out.println(list.get(t).replace(";", ":") +" vs "+ list.get(t+1).replace(";", ":") + " : \t \t" + rate(b));
         listf.add(list.get(t).replace(";", ":") +" vs "+ list.get(t+1).replace(";", ":") + " : \t \t" + rate(b));
         t= t+2;
         return process(list, t);
@@ -145,7 +148,7 @@ public class Point {
         if ((4.50  < a) && (a <= 4.75)) {
             return "5-4-5";
         }
-        if ((4.75  < a && a <= 5.25)) {
+        if ((4.75  < a)) {
             return "5-5-5";
         }
         if ((5.25 < a && a <= 5.50)) {
